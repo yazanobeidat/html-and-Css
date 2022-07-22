@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+body{
+background-color:#FF10F0;
+margin-left:20px;
+margin-top: 50px;
+
+}
+.box {
+  float: left;
+  width: 25%;
+  margin:10px;
+  padding-top: 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#overflowTest {
+  background: #FF10F0;
+  color: black;
+  padding: 15px;
+  width: 90%;
+  height: 100px;
+  overflow: auto;
+  border: 4px solid black;
+
+}
+
+</style>
+</head>
+<body>
+
+<h2>Floating articles</h2>
+
+<div class="clearfix">
+  <div class="box" style="background-color:#fff">
+  <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quas deleniti, 
+    voluptate aliquid ea itaque cumque quisquam numquam reprehenderit? 
+    Mollitia est quis inventore delectus reprehenderit nihil officia aliquam laboriosam id! </b></p>
+  </div>
+  <div class="box" style="background-color:#fff">
+  <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quas deleniti, 
+    voluptate aliquid ea itaque cumque quisquam numquam reprehenderit? 
+    Mollitia est quis inventore delectus reprehenderit nihil officia aliquam laboriosam id!</b></p>
+  </div>
+  <div class="box" style="background-color:#fff">
+  <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quas deleniti, 
+    voluptate aliquid ea itaque cumque quisquam numquam reprehenderit? 
+    Mollitia est quis inventore delectus reprehenderit nihil officia aliquam laboriosam id!</b></p>
+  </div>
+</div>
+<div id="overflowTest">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+    Repudiandae tempora quia dignissimos quaerat quidem,
+     error repellat! Nemo ratione omnis quas, saepe, aut pariatur inventore impedit culpa deleniti 
+     tempore, distinctio animi corrupti deserunt similique voluptate fugiat modi ullam illum id! Ipsum
+     rem deserunt omnis hic adipisci eius quasi. Iusto repudiandae labore ut cum enim numquam soluta corporis 
+     pariatur at adipisci voluptatum, dolorum delectus voluptatem sint, sunt quod cupiditate ipsa molestiae 
+    tenetur! Corrupti ipsum aliquam maiores? Cupiditate voluptates neque provident quia repellendus voluptate 
+     cum esse quod repudiandae laudantium, maiores magni dolore inventore nemo, quisquam qui dicta consequuntur 
+    fuga consequatur earum delectus minus deserunt perspiciatis totam. Dolore fugiat dolores magnam labore
+     eveniet aut repudiandae veritatis iure. Ab aut ex error sapiente alias mollitia quas numquam dignissimos 
+     nostrum non. Ea atque saepe, minus omnis neque aliquid corporis hic sit tempora commodi. Voluptas accusamus
+    autem delectus quam, nobis, perspiciatis minus amet quae, nihil quibusdam praesentium.</div>
+<div class="clearfix">
+        <div class="box" style="background-color:#fff">
+        <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quas deleniti, 
+          voluptate aliquid ea itaque cumque quisquam numquam reprehenderit? 
+          Mollitia est quis inventore delectus reprehenderit nihil officia aliquam laboriosam id! </b></p>
+        </div>
+        <div class="box" style="background-color:#fff">
+        <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quas deleniti, 
+          voluptate aliquid ea itaque cumque quisquam numquam reprehenderit? 
+          Mollitia est quis inventore delectus reprehenderit nihil officia aliquam laboriosam id!</b></p>
+        </div>
+      
+</body>
+</html>
